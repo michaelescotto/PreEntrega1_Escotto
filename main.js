@@ -1,10 +1,22 @@
-let bienvenido = alert("¡Bienvenido a la tienda!\n\nHaga click en el botón Aceptar o presione Enter para continuar.");
+const mensajeBienvenida = () => {
+    alert("¡Bienvenido a la tienda!\n\nHaga click en el botón Aceptar o presione Enter para continuar.");
+}
+
+const mostrarMenuPrincipal = () => {
+    parseInt(prompt("En nuestra tienda tenemos los siguientes artículos a la venta:\n\n1 - Remeras\n2 - Pantalones\n\n0 - Salir\n\nElija el número de la opción para continuar."));
+}
+
+
+
+
+
+
 
 let menuPrincipal;
 let salir = false;
 
 while (!salir) {
-    menuPrincipal = parseInt(prompt("En nuestra tienda tenemos los siguientes artículos a la venta:\n\n1 - Remeras\n2 - Pantalones\n\n0 - Salir\n\nElija el número de la opción para continuar."));
+    menuPrincipal = 
     if (menuPrincipal === 0) {
         salir = true;
     } else {
