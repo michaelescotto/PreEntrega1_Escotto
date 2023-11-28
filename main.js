@@ -24,7 +24,7 @@ const programa = () => {
     mensajeBienvenida();
     while (true) {
         let menuPrincipal = mostrarMenuPrincipal();
-        if (menuPrincipal == 0){
+        if (menuPrincipal === 0){
          break;
         }
         switch (menuPrincipal){
