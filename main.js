@@ -67,6 +67,9 @@ const programa = () => {
                                 }
                             }
                         }
+                        default:{
+                            avisoNoValido();
+                        }
                     }
             }
             break;
@@ -109,6 +112,9 @@ const programa = () => {
                                 }
                             }
                         }
+                        default:{
+                            avisoNoValido();
+                        }
                     }
             }
             break;
@@ -150,6 +156,9 @@ const programa = () => {
                                     avisoNoValido();
                                 }
                             }
+                        }
+                        default:{
+                            avisoNoValido();
                         }
                     }
             }
